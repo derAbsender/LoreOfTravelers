@@ -1,0 +1,172 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4964249400790504575
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 912380993051778518, guid: ce1b17706cb31ac43be3d067cc23cbad,
+        type: 3}
+      propertyPath: typeOfThisToken
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5684501179738112312, guid: ce1b17706cb31ac43be3d067cc23cbad,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3cd83c215e2a5f44b9313179fe47d29d,
+        type: 3}
+    - target: {fileID: 6951289939882707281, guid: ce1b17706cb31ac43be3d067cc23cbad,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6951289939882707281, guid: ce1b17706cb31ac43be3d067cc23cbad,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7039556016156384601, guid: ce1b17706cb31ac43be3d067cc23cbad,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3cd83c215e2a5f44b9313179fe47d29d,
+        type: 3}
+    - target: {fileID: 8650308279347063916, guid: ce1b17706cb31ac43be3d067cc23cbad,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1315.7035
+      objectReference: {fileID: 0}
+    - target: {fileID: 8650308279347063916, guid: ce1b17706cb31ac43be3d067cc23cbad,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 707.2083
+      objectReference: {fileID: 0}
+    - target: {fileID: 8650308279347063916, guid: ce1b17706cb31ac43be3d067cc23cbad,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -543.8152
+      objectReference: {fileID: 0}
+    - target: {fileID: 8650308279347063916, guid: ce1b17706cb31ac43be3d067cc23cbad,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8650308279347063916, guid: ce1b17706cb31ac43be3d067cc23cbad,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8650308279347063916, guid: ce1b17706cb31ac43be3d067cc23cbad,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8650308279347063916, guid: ce1b17706cb31ac43be3d067cc23cbad,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8650308279347063916, guid: ce1b17706cb31ac43be3d067cc23cbad,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8650308279347063916, guid: ce1b17706cb31ac43be3d067cc23cbad,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8650308279347063916, guid: ce1b17706cb31ac43be3d067cc23cbad,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8650308279347063916, guid: ce1b17706cb31ac43be3d067cc23cbad,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8650308279347063917, guid: ce1b17706cb31ac43be3d067cc23cbad,
+        type: 3}
+      propertyPath: itemSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3cd83c215e2a5f44b9313179fe47d29d,
+        type: 3}
+    - target: {fileID: 8650308279347063917, guid: ce1b17706cb31ac43be3d067cc23cbad,
+        type: 3}
+      propertyPath: hpRegen
+      value: -30
+      objectReference: {fileID: 0}
+    - target: {fileID: 8650308279347063917, guid: ce1b17706cb31ac43be3d067cc23cbad,
+        type: 3}
+      propertyPath: eAtkChange
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8650308279347063917, guid: ce1b17706cb31ac43be3d067cc23cbad,
+        type: 3}
+      propertyPath: spRegen
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8650308279347063917, guid: ce1b17706cb31ac43be3d067cc23cbad,
+        type: 3}
+      propertyPath: cpRegen
+      value: -15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8650308279347063917, guid: ce1b17706cb31ac43be3d067cc23cbad,
+        type: 3}
+      propertyPath: cAtkChange
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8650308279347063917, guid: ce1b17706cb31ac43be3d067cc23cbad,
+        type: 3}
+      propertyPath: cDefChange
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8650308279347063917, guid: ce1b17706cb31ac43be3d067cc23cbad,
+        type: 3}
+      propertyPath: itemName
+      value: Bee Jar
+      objectReference: {fileID: 0}
+    - target: {fileID: 8650308279347063917, guid: ce1b17706cb31ac43be3d067cc23cbad,
+        type: 3}
+      propertyPath: functionTextImage
+      value: Damages the foe. HP -30 SP -10 CP -15 Coolnes -5 Edgyness -5. May affect
+        the user.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8650308279347063917, guid: ce1b17706cb31ac43be3d067cc23cbad,
+        type: 3}
+      propertyPath: lore
+      value: Bee Drones seperated from their swarm, they desperately want to return,
+        attacking everything in their path.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8650308279347063917, guid: ce1b17706cb31ac43be3d067cc23cbad,
+        type: 3}
+      propertyPath: stackSize
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8650308279347063917, guid: ce1b17706cb31ac43be3d067cc23cbad,
+        type: 3}
+      propertyPath: amount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8650308279347063917, guid: ce1b17706cb31ac43be3d067cc23cbad,
+        type: 3}
+      propertyPath: inventoryId
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8650308279347063917, guid: ce1b17706cb31ac43be3d067cc23cbad,
+        type: 3}
+      propertyPath: owner
+      value: 
+      objectReference: {fileID: 3498890902444661609, guid: 14471cf7e420b88488efe1958ee308aa,
+        type: 3}
+    - target: {fileID: 8650308279347063918, guid: ce1b17706cb31ac43be3d067cc23cbad,
+        type: 3}
+      propertyPath: m_Name
+      value: Bee Jar Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce1b17706cb31ac43be3d067cc23cbad, type: 3}
