@@ -1,0 +1,255 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7879939618551531776
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4107740586830538530}
+  - component: {fileID: 9207816814158493931}
+  - component: {fileID: 5223881993482706660}
+  - component: {fileID: 5768771755371249618}
+  - component: {fileID: 6544713835944752270}
+  - component: {fileID: 5048441805863535281}
+  m_Layer: 0
+  m_Name: Ray
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4107740586830538530
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7879939618551531776}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.3108908, y: -2.356852, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &9207816814158493931
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7879939618551531776}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 5155053258470156147, guid: 69d5d6388fa7b2b428d40b79d599cfa5, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.5, y: 1.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!95 &5223881993482706660
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7879939618551531776}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5768771755371249618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7879939618551531776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b75462030f9c3748b344a706ed0067c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health:
+    designation: 
+    baseInitValue: 10
+    initValue: 10
+    currentMultiplier: 1
+    currValue: 10
+  stamina:
+    designation: 
+    baseInitValue: 10
+    initValue: 10
+    currentMultiplier: 1
+    currValue: 10
+  magic:
+    designation: 
+    baseInitValue: 10
+    initValue: 10
+    currentMultiplier: 1
+    currValue: 10
+  charisma:
+    designation: 
+    baseInitValue: 10
+    initValue: 10
+    currentMultiplier: 1
+    currValue: 5
+  pAtk:
+    designation: 
+    baseInitValue: 10
+    initValue: 10
+    currentMultiplier: 1
+    currValue: 0
+  pDef:
+    designation: 
+    baseInitValue: 10
+    initValue: 10
+    currentMultiplier: 1
+    currValue: 0
+  mAtk:
+    designation: 
+    baseInitValue: 10
+    initValue: 10
+    currentMultiplier: 1
+    currValue: 0
+  mDef:
+    designation: 
+    baseInitValue: 10
+    initValue: 10
+    currentMultiplier: 1
+    currValue: 0
+  cAtk:
+    designation: 
+    baseInitValue: 10
+    initValue: 10
+    currentMultiplier: 1
+    currValue: 0
+  cDef:
+    designation: 
+    baseInitValue: 10
+    initValue: 10
+    currentMultiplier: 1
+    currValue: 0
+  sAtk:
+    designation: 
+    baseInitValue: 10
+    initValue: 10
+    currentMultiplier: 1
+    currValue: 0
+  sDef:
+    designation: 
+    baseInitValue: 10
+    initValue: 10
+    currentMultiplier: 1
+    currValue: 0
+  speed:
+    designation: 
+    baseInitValue: 10
+    initValue: 10
+    currentMultiplier: 1
+    currValue: 0
+  reflex:
+    designation: 
+    baseInitValue: 10
+    initValue: 10
+    currentMultiplier: 1
+    currValue: 0
+  accuracy:
+    designation: 
+    baseInitValue: 10
+    initValue: 10
+    currentMultiplier: 1
+    currValue: 0
+  evasiveness:
+    designation: 
+    baseInitValue: 10
+    initValue: 10
+    currentMultiplier: 1
+    currValue: 0
+--- !u!114 &6544713835944752270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7879939618551531776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f54ac50de8ea3c448a78962401350f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterAnimator: {fileID: 9100000, guid: 75a902ce58327bd45b1dde8ae69e833a, type: 2}
+  characterUIIcon: {fileID: 5155053258470156147, guid: 69d5d6388fa7b2b428d40b79d599cfa5, type: 3}
+  emptyHanded: 0
+  heldWeapon: {fileID: 0}
+  bareHanded: {fileID: 5332775177872130227, guid: 4faec74f9f2328f48838cd56933c164f, type: 3}
+  playerStats: {fileID: 5768771755371249618}
+  weaponResourceModificator: 1
+  staminaModifactor: 1
+  classJob: 3
+  juggernaut: {fileID: 5048441805863535281}
+--- !u!114 &5048441805863535281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7879939618551531776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c37d99861cb2544e84b30b2d230ce5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  body: {fileID: 1541659316701813760, guid: ed096884098d1d049a47622d56e03f9b, type: 3}
+  head: {fileID: 7647747880034511101, guid: 2abd833a22e27054290a97bf006e80d5, type: 3}
+  limbs: {fileID: 7816800756104365959, guid: 7ffb1d1cd147aec4db86b44fa9b1dd2a, type: 3}
+  currentArmorValue: 9
+  maxArmorValue: 9
+  wearsSet: 1

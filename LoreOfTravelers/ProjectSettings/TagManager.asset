@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Scalable
+  - Bombable
+  - UI
+  - Draggable
+  - MainObject
   layers:
   - Default
   - TransparentFX
@@ -11,12 +16,12 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - CombatantLayer
-  - MainMenuTokenLayer
-  - 
-  - 
+  - Scalable
+  - Bombable
+  - Wall
+  - Enemy
+  - Bomb
+  - Draggable
   - 
   - 
   - 
@@ -42,5 +47,5 @@ TagManager:
     uniqueID: 0
     locked: 0
   - name: Player
-    uniqueID: 2756352703
+    uniqueID: 2940667821
     locked: 0

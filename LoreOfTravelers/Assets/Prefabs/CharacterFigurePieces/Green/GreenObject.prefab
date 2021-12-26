@@ -1,0 +1,162 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8000506398837997566
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6399737316274588605}
+  - component: {fileID: 4872399376450699112}
+  - component: {fileID: -4105459995631290758}
+  m_Layer: 0
+  m_Name: GreenObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6399737316274588605
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8000506398837997566}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.7854104, y: -2.5738, z: -0.108566925}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4872399376450699112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8000506398837997566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f54ac50de8ea3c448a78962401350f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterAnimator: {fileID: 9100000, guid: 711edcba4263ed24d975af5c9af8e138, type: 2}
+  characterUIIcon: {fileID: 4996944730279439149, guid: 64633a55176e9b94a8d8e0dd4ffc9d46, type: 3}
+  emptyHanded: 0
+  heldWeapon: {fileID: 0}
+  bareHanded: {fileID: 5332775177872130227, guid: 4faec74f9f2328f48838cd56933c164f, type: 3}
+  playerStats: {fileID: -4105459995631290758}
+--- !u!114 &-4105459995631290758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8000506398837997566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b75462030f9c3748b344a706ed0067c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countExperienceOrb: 0
+  countExperienceOrbTotal: 0
+  health:
+    designation: 
+    baseInitValue: 12
+    initValue: 12
+    currentMultiplier: 1
+    currValue: 0
+  stamina:
+    designation: 
+    baseInitValue: 10
+    initValue: 10
+    currentMultiplier: 1
+    currValue: 0
+  magic:
+    designation: 
+    baseInitValue: 10
+    initValue: 10
+    currentMultiplier: 1
+    currValue: 0
+  charisma:
+    designation: 
+    baseInitValue: 10
+    initValue: 10
+    currentMultiplier: 1
+    currValue: 0
+  pAtk:
+    designation: 
+    baseInitValue: 10
+    initValue: 10
+    currentMultiplier: 1
+    currValue: 0
+  pDef:
+    designation: 
+    baseInitValue: 10
+    initValue: 10
+    currentMultiplier: 1
+    currValue: 0
+  mAtk:
+    designation: 
+    baseInitValue: 10
+    initValue: 10
+    currentMultiplier: 1
+    currValue: 0
+  mDef:
+    designation: 
+    baseInitValue: 10
+    initValue: 10
+    currentMultiplier: 1
+    currValue: 0
+  cAtk:
+    designation: 
+    baseInitValue: 10
+    initValue: 10
+    currentMultiplier: 1
+    currValue: 0
+  cDef:
+    designation: 
+    baseInitValue: 10
+    initValue: 10
+    currentMultiplier: 1
+    currValue: 0
+  sAtk:
+    designation: 
+    baseInitValue: 10
+    initValue: 10
+    currentMultiplier: 1
+    currValue: 0
+  sDef:
+    designation: 
+    baseInitValue: 10
+    initValue: 10
+    currentMultiplier: 1
+    currValue: 0
+  speed:
+    designation: 
+    baseInitValue: 10
+    initValue: 10
+    currentMultiplier: 1
+    currValue: 0
+  reflex:
+    designation: 
+    baseInitValue: 10
+    initValue: 10
+    currentMultiplier: 1
+    currValue: 0
+  accuracy:
+    designation: 
+    baseInitValue: 10
+    initValue: 10
+    currentMultiplier: 1
+    currValue: 0
+  evasiveness:
+    designation: 
+    baseInitValue: 10
+    initValue: 10
+    currentMultiplier: 1
+    currValue: 0
